@@ -27,7 +27,6 @@ function readLine() {
 
 function getLetter(s) {
   let letter;
-  // Write your code here
   switch (true) {
     case "aeiou".includes(s[0]):
       letter = "A";
@@ -42,7 +41,6 @@ function getLetter(s) {
       letter = "D";
       break;
   }
-
   return letter;
 }
 
